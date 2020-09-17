@@ -1,4 +1,4 @@
-FROM ros:dashing 
+FROM arm64v8/ros:dashing 
 
 RUN mkdir -p uros_ws
 WORKDIR uros_ws
